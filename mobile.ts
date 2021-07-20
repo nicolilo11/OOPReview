@@ -1,4 +1,4 @@
-class Mobile
+export class Mobile
 {
     public name:string;
     public model:string;
