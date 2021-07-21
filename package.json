@@ -1,0 +1,22 @@
+{
+  "name": "oopreview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolilo11/OOPReview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolilo11/OOPReview/issues"
+  },
+  "homepage": "https://github.com/nicolilo11/OOPReview#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.0"
+  }
+}
