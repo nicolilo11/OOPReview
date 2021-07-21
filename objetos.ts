@@ -1,8 +1,8 @@
 import { Mobile } from "./mobile";
 
-let nokia3210:Mobile = new Mobile("Nokia3210", "3210", "Nokia", "Estandar", "Negro", false, 1, 50);
-let iphone3G:Mobile = new Mobile("Iphone3G", "3G", "Iphone", "Estandar", "Blanco", false, 2, 200);
-let samsungGalaxy10:Mobile = new Mobile("Samsung Galaxy 10", "S10", "Samsung", "Estandar", "Dorado", true, 3, 400);
+let nokia3210:Mobile = new Mobile("Nokia3210", "3210", "Nokia", 1 , "Negro", false, 1, 50);
+let iphone3G:Mobile = new Mobile("Iphone3G", "3G", "Iphone", 2, "Blanco", false, 2, 200);
+let samsungGalaxy10:Mobile = new Mobile("Samsung Galaxy 10", "S10", "Samsung", 3, "Dorado", true, 3, 400);
 
 console.log(nokia3210 , iphone3G, samsungGalaxy10);
 
