@@ -112,7 +112,7 @@ export class Mobile
                               "\t" + "•" + "  " + "Color : " + this.color +"\n" +
                               "\t" + "•" + "  " + "Is 5g? : " + this.is5G +"\n" +
                               "\t" + "•" + "  " + "Number of Cameras : " + this.cameraNumber +"\n" +
-                              "\t" + "•" + "  " + "Price : " + this.price;
+                              "\t" + "•" + "  " + "Price : " + this.price
         console.log(caracteristicas);
     }
 }
