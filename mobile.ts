@@ -116,5 +116,3 @@ export class Mobile
         console.log(caracteristicas);
     }
 }
-let prueba:Mobile = new Mobile("arturo","b","sd",2,"ss", true, 2, 200);
-prueba.print();
