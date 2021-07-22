@@ -8,12 +8,11 @@ let mobile4:Mobile = new Mobile("Xiaomi Redmi Note 10 Pro", "Remi Note 10 Pro", 
 
 
 let arrMobiles: Mobile[] = [mobile1, mobile2, mobile3, mobile4];
-
-let libraryMobiles:MobileLibrary = new MobileLibrary ("Los ultimos moviles", "España", arrMobiles);
-
 let nokia3210:Mobile = new Mobile("Nokia3210", "3210", "Nokia", 1 , "Negro", false, 1, 50);
 let iphone3G:Mobile = new Mobile("Iphone3G", "3G", "Iphone", 2, "Blanco", false, 2, 200);
 let samsungGalaxy10:Mobile = new Mobile("Samsung Galaxy 10", "S10", "Samsung", 3, "Dorado", true, 3, 400);
+
+let libraryMobiles:MobileLibrary = new MobileLibrary ("Los ultimos moviles", "España", arrMobiles);
 
 console.log(libraryMobiles.getName());
 console.log(libraryMobiles.getLocation());
@@ -26,6 +25,10 @@ libraryMobiles.setMobiles([nokia3210,iphone3G,samsungGalaxy10]);
 console.log(libraryMobiles.getName());
 console.log(libraryMobiles.getLocation());
 console.log(libraryMobiles.getMobiles());
+
+console.log(libraryMobiles.getTotalPrice());
+
+libraryMobiles.printLibrary();
 
 
 

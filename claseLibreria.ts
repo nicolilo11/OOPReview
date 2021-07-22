@@ -12,39 +12,45 @@ export class MobileLibrary
         this.name = name;
         this.location = location;
         this.mobiles = arrMobiles;
+        this.totalPrice = this.totalPriceCalculation();
     }
 
-    getName():string
+    public getName():string
     {
         return this.name
     }
 
-    getLocation():string
+    public getLocation():string
     {
         return this.location
     }
 
-    getMobiles():Mobile[]
+    public getMobiles():Mobile[]
     {
         return this.mobiles
     }
 
-    setName(n:string)
+    public getTotalPrice():number
+    {
+        return this.totalPrice;
+    }
+
+    public setName(n:string):void
     {
         this.name = n;
     }
 
-    setLocation(l:string)
+    public setLocation(l:string):void
     {
         this.location = l;
     }
 
-    setMobiles(m:Mobile[])
+    public setMobiles(m:Mobile[]):void
     {
         this.mobiles = m;
     }
     
-    totalPriceCalculation()
+    private totalPriceCalculation():number
     {
         let sumaPrecios:number = 0;
         for(let mobile in this.mobiles)
@@ -53,7 +59,16 @@ export class MobileLibrary
         }
         return sumaPrecios
     }
+
+    public printLibrary():void
+    {
+        console.log("•" + " \t" + "This is all my mobiles:")
+
+        for(let objetos in this.mobiles)
+        {
+            this.mobiles[objetos].print()
+        }
+
+        console.log("Price overall: " + this.getTotalPrice());
+    }
 }
-
-
-

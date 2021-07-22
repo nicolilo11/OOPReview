@@ -62,47 +62,47 @@ export class Mobile
         return this.price;
     }
 
-    public setName(n:string)
+    public setName(n:string):void
     {
         this.name = n;
     }
 
-    public setModel(s:string)
+    public setModel(s:string):void
     {
         this.model = s;
     }
 
-    public setTradeMark(tD:string)
+    public setTradeMark(tD:string):void
     {
         this.tradeMark = tD;
     }
 
-    public setSDSize(sDSize:number)
+    public setSDSize(sDSize:number):void
     {
         this.sDSize = sDSize;
     }
 
-    public setColor(c:string)
+    public setColor(c:string):void
     {
         this.color = c;
     }
 
-    public setIs5G(cincoG:boolean)
+    public setIs5G(cincoG:boolean):void
     {
         this.is5G = cincoG;
     }
 
-    public SetCameraNumber(n:number)
+    public SetCameraNumber(n:number):void
     {
         this.cameraNumber = n;
     }
 
-    public setPrice(p:number)
+    public setPrice(p:number):void
     {
         this.price = p;
     }
 
-    public print()
+    public print():void
     {
         let caracteristicas = "•" + "  " + "The characteristics of the mobile " + this.name + " are:" +"\n" +
                               "\t" + "•" + "  " + "Name : " + this.name +"\n" +
